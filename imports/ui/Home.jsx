@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-
-export default function Home() {
+this.b = undefined;
+function Home() {
   return (
     <>
       <Button variant="primary">Primary</Button>
@@ -9,3 +9,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;

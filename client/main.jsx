@@ -7,5 +7,5 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // selecting element in UI to load the React App
 Meteor.startup(() => {
-  render(<App />, document.getElementById("react-target"));
+  render(<App />, document.getElementById("app"));
 });
