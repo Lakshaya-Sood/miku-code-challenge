@@ -1,5 +1,5 @@
 {
-  "name": "dummy-app",
+  "name": "simple-todos-react",
   "private": true,
   "scripts": {
     "start": "meteor run",
@@ -8,19 +8,20 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.7.6",
-    "bootstrap": "^4.4.1",
-    "meteor-node-stubs": "^1.0.0",
-    "react": "^16.9.0",
-    "react-bootstrap": "^1.0.0-beta.16",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.1.2"
+    "@babel/runtime": "^7.1.5",
+    "classnames": "^2.2.6",
+    "meteor-node-stubs": "^0.4.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   },
   "meteor": {
     "mainModule": {
-      "client": "client/main.jsx",
+      "client": "client/main.js",
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
   }
 }
